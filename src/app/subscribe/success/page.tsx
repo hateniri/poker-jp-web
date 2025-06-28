@@ -1,12 +1,13 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import DealerButton from '@/components/DealerButton';
 
 function SuccessContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const sessionId = searchParams.get('session_id');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -137,7 +138,7 @@ function SuccessContent() {
           variant="gold"
           size="lg"
           icon="🏠"
-          onClick={() => window.location.href = '/'}
+          onClick={() => router.push('/')}
           className="pulse-glow"
         />
         <p className="text-sm text-poker-silver">

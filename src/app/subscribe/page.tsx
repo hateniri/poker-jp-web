@@ -202,6 +202,8 @@ export default function SubscribePage() {
             size="lg"
             className="w-full"
             icon="💳"
+            type="submit"
+            disabled={loading}
           />
         </form>
 

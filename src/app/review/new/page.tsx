@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import DealerButton from '@/components/DealerButton';
 
 export default function NewReviewPage() {
   const router = useRouter();
@@ -184,19 +185,20 @@ ${formData.type === 'dealer' ? `
           </div>
 
           <div className="flex gap-4">
-            <button
+            <DealerButton
+              text="GitHub Issueで投稿"
+              variant="secondary"
+              size="lg"
+              className="flex-1"
               type="submit"
-              className="flex-1 bg-green-600 text-white py-3 rounded-md hover:bg-green-700 font-semibold"
-            >
-              GitHub Issueで投稿
-            </button>
-            <button
-              type="button"
+              icon="📝"
+            />
+            <DealerButton
+              text="キャンセル"
+              variant="primary"
+              size="lg"
               onClick={() => router.back()}
-              className="px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-50"
-            >
-              キャンセル
-            </button>
+            />
           </div>
         </form>
 

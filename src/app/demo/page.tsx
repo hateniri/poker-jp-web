@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import PlayingCard from '@/components/PlayingCard';
 import PokerChip from '@/components/PokerChip';
 import DealerButton from '@/components/DealerButton';
@@ -8,6 +9,7 @@ import PokerTable from '@/components/PokerTable';
 
 export default function DemoPage() {
   const [chips, setChips] = useState(10000);
+  const router = useRouter();
 
   const handleBet = (amount: number) => {
     if (chips >= amount) {
@@ -92,7 +94,7 @@ export default function DemoPage() {
               variant="gold" 
               size="lg" 
               className="pulse-glow"
-              onClick={() => window.location.href = '/jobs'}
+              onClick={() => router.push('/jobs')}
             />
           </div>
         </PokerTable>

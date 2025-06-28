@@ -16,14 +16,14 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { storeName, email } = await request.json();
+    const { storeName, email, priceId } = await request.json();
 
     // Checkoutセッションを作成
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: [
         {
-          price: process.env.STRIPE_PRICE_ID!, // 月額10,000円のプランID
+          price: priceId, // 動的に価格IDを使用
           quantity: 1,
         },
       ],

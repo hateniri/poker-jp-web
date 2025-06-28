@@ -7,6 +7,8 @@ interface DealerButtonProps {
   size?: 'sm' | 'md' | 'lg';
   className?: string;
   icon?: React.ReactNode;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 }
 
 export default function DealerButton({ 
@@ -15,7 +17,9 @@ export default function DealerButton({
   variant = 'primary', 
   size = 'md',
   className = '',
-  icon
+  icon,
+  type = 'button',
+  disabled = false
 }: DealerButtonProps) {
   const variants = {
     primary: 'bg-poker-red hover:bg-poker-darkred text-white border-poker-darkred',
@@ -31,7 +35,9 @@ export default function DealerButton({
 
   return (
     <button
+      type={type}
       onClick={onClick}
+      disabled={disabled}
       className={`
         ${variants[variant]}
         ${sizes[size]}
@@ -41,6 +47,7 @@ export default function DealerButton({
         shadow-lg hover:shadow-xl
         relative overflow-hidden
         group
+        ${disabled ? 'opacity-50 cursor-not-allowed hover:scale-100' : ''}
         ${className}
       `}
       style={{

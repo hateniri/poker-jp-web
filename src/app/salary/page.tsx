@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Job } from '@/types';
 import jobsData from '../../../data/jobs.json';
+import DealerButton from '@/components/DealerButton';
 
 interface SalaryStats {
   area: string;
@@ -94,36 +95,24 @@ export default function SalaryPage() {
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-semibold">集計期間</h2>
           <div className="flex gap-2">
-            <button
+            <DealerButton
+              text="本日"
               onClick={() => setSelectedTimeframe('today')}
-              className={`px-4 py-2 rounded ${
-                selectedTimeframe === 'today' 
-                  ? 'bg-blue-600 text-white' 
-                  : 'bg-white border border-gray-300'
-              }`}
-            >
-              本日
-            </button>
-            <button
+              variant={selectedTimeframe === 'today' ? 'gold' : 'secondary'}
+              size="sm"
+            />
+            <DealerButton
+              text="今週"
               onClick={() => setSelectedTimeframe('week')}
-              className={`px-4 py-2 rounded ${
-                selectedTimeframe === 'week' 
-                  ? 'bg-blue-600 text-white' 
-                  : 'bg-white border border-gray-300'
-              }`}
-            >
-              今週
-            </button>
-            <button
+              variant={selectedTimeframe === 'week' ? 'gold' : 'secondary'}
+              size="sm"
+            />
+            <DealerButton
+              text="今月"
               onClick={() => setSelectedTimeframe('month')}
-              className={`px-4 py-2 rounded ${
-                selectedTimeframe === 'month' 
-                  ? 'bg-blue-600 text-white' 
-                  : 'bg-white border border-gray-300'
-              }`}
-            >
-              今月
-            </button>
+              variant={selectedTimeframe === 'month' ? 'gold' : 'secondary'}
+              size="sm"
+            />
           </div>
         </div>
 
