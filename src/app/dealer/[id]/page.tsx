@@ -10,8 +10,8 @@ interface Props {
 
 export default async function DealerPage({ params }: Props) {
   const { id } = await params;
-  const dealers: Dealer[] = dealersData.dealers;
-  const stores: Store[] = storesData.stores;
+  const dealers = dealersData.dealers as Dealer[];
+  const stores = storesData.stores as Store[];
 
   const dealer = dealers.find(d => d.id === id);
   

@@ -4,8 +4,8 @@ import jobsData from '../../../data/jobs.json';
 import storesData from '../../../data/stores.json';
 
 export default function JobsPage() {
-  const jobs: Job[] = jobsData.jobs;
-  const stores: Store[] = storesData.stores;
+  const jobs = jobsData.jobs as Job[];
+  const stores = storesData.stores as Store[];
 
   const activeJobs = jobs
     .filter(job => job.status === 'active')

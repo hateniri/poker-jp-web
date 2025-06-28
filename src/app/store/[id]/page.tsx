@@ -11,9 +11,9 @@ interface Props {
 
 export default async function StorePage({ params }: Props) {
   const { id } = await params;
-  const stores: Store[] = storesData.stores;
-  const jobs: Job[] = jobsData.jobs;
-  const dealers: Dealer[] = dealersData.dealers;
+  const stores = storesData.stores as Store[];
+  const jobs = jobsData.jobs as Job[];
+  const dealers = dealersData.dealers as Dealer[];
 
   const store = stores.find(s => s.id === id);
   
