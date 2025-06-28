@@ -68,9 +68,9 @@ export default async function StorePage({ params }: Props) {
 
         <div className="flex items-center mb-6">
           <div className="flex items-center">
-            <span className="text-2xl">⭐</span>
-            <span className="text-xl font-semibold ml-1">{store.ratings.average}</span>
-            <span className="text-gray-500 ml-2">({store.ratings.count}件のレビュー)</span>
+            <span className="text-2xl">🎰</span>
+            <span className="text-xl font-semibold ml-1">{store.table_count}テーブル</span>
+            <span className="text-gray-500 ml-2">稼働中</span>
           </div>
         </div>
       </div>

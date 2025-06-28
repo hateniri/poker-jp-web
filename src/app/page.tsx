@@ -22,9 +22,9 @@ export default function Home() {
     .filter(store => store.subscription.status === 'active')
     .slice(0, 3);
 
-  // 実際の店舗から人気店をピックアップ
-  const popularStores = storesData.stores
-    .sort((a, b) => b.ratings.average - a.ratings.average)
+  // 実際の店舗から大型店をピックアップ（テーブル数順）
+  const largeStores = storesData.stores
+    .sort((a, b) => b.table_count - a.table_count)
     .slice(0, 3);
 
   return (
@@ -128,11 +128,11 @@ export default function Home() {
       <section className="mb-16 relative z-10">
         <h2 className="text-4xl font-bold mb-8 text-center text-poker-white">
           <span className="suit-heart text-poker-red mr-3 neon-flash"></span>
-          人気のポーカールーム
+          大型ポーカールーム
           <span className="suit-diamond text-poker-red ml-3 neon-flash"></span>
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
-          {popularStores.map((store, index) => (
+          {largeStores.map((store, index) => (
             <Link
               key={store.id}
               href={`/store/${store.id}`}
@@ -144,9 +144,9 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-3 text-poker-white">{store.name}</h3>
               <p className="text-poker-silver mb-2">{store.location.prefecture} {store.location.city}</p>
               <div className="flex items-center mb-4">
-                <span className="text-2xl text-poker-gold">⭐</span>
-                <span className="font-bold ml-1 text-2xl text-poker-white">{store.ratings.average}</span>
-                <span className="text-poker-silver ml-2">({store.ratings.count}件)</span>
+                <span className="text-2xl text-poker-gold">🎰</span>
+                <span className="font-bold ml-1 text-2xl text-poker-white">{store.table_count}テーブル</span>
+                <span className="text-poker-silver ml-2">稼働中</span>
               </div>
               <div className="flex flex-wrap gap-2">
                 {store.features.slice(0, 3).map((feature, idx) => (
@@ -177,7 +177,7 @@ export default function Home() {
               <div className="text-5xl mb-4 text-poker-red group-hover:scale-125 transition-transform">♥</div>
               <h3 className="text-lg font-bold mb-2 text-poker-white">信頼の実績</h3>
               <p className="text-poker-silver text-sm">
-                {storesData.stores.reduce((sum, s) => sum + s.ratings.count, 0)}件以上のリアルレビュー
+                {storesData.stores.reduce((sum, s) => sum + s.table_count, 0)}テーブル全国で稼働中
               </p>
             </div>
             <div className="text-center group">

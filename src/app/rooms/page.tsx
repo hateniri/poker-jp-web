@@ -96,9 +96,9 @@ export default function RoomsPage() {
                     
                     <div className="flex items-center justify-between pt-4 border-t border-poker-gold/20">
                       <div className="flex items-center gap-2">
-                        <span className="text-poker-gold text-lg">⭐</span>
-                        <span className="font-bold text-poker-white">{store.ratings.average}</span>
-                        <span className="text-poker-silver text-sm">({store.ratings.count})</span>
+                        <span className="text-poker-gold text-lg">🎰</span>
+                        <span className="font-bold text-poker-white">{store.table_count}テーブル</span>
+                        <span className="text-poker-silver text-sm">稼働中</span>
                       </div>
                       
                       <div className="text-sm text-poker-silver">

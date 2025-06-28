@@ -57,10 +57,7 @@ export interface Store {
     plan: 'free' | 'premium';
     expires_at: string;
   };
-  ratings: {
-    average: number;
-    count: number;
-  };
+  table_count: number;
   created_at: string;
   updated_at: string;
 }
