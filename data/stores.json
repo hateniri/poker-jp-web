@@ -1,29 +1,30 @@
 {
   "stores": [
     {
-      "id": "store-001",
-      "name": "ポーカールーム新宿",
-      "description": "新宿駅から徒歩5分。初心者から上級者まで楽しめるポーカールーム。",
+      "id": "casino-sports-sapporo",
+      "name": "カジスポ札幌",
+      "description": "札幌市中央区のポーカールーム。CASINO SPORTS SAPPORO。",
       "location": {
-        "prefecture": "東京都",
-        "city": "新宿区",
-        "address": "歌舞伎町1-1-1",
-        "access": "新宿駅東口より徒歩5分"
+        "prefecture": "北海道",
+        "city": "札幌市中央区",
+        "address": "詳細住所",
+        "access": "地下鉄最寄り駅から徒歩圏内"
       },
+      "table_count": 8,
       "contact": {
-        "phone": "03-1234-5678",
-        "email": "info@example-poker.jp",
-        "website": "https://example-poker.jp"
+        "phone": "03-xxxx-xxxx",
+        "email": "info@casino-sports-sapporo.jp",
+        "website": "https://casino-sports-sapporo.jp"
       },
       "business_hours": {
-        "weekday": "19:00-05:00",
-        "weekend": "17:00-05:00",
-        "holidays": "定休日：なし"
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
       },
       "features": [
-        "初心者向けレッスンあり",
-        "トーナメント定期開催",
-        "ドリンク・軽食サービス",
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
         "会員制度あり"
       ],
       "subscription": {
@@ -31,324 +32,3683 @@
         "plan": "premium",
         "expires_at": "2024-12-31T23:59:59Z"
       },
-      "table_count": 12,
-      "created_at": "2023-06-01T00:00:00Z",
-      "updated_at": "2024-01-15T09:00:00Z"
+      "created_at": "2025-06-28T14:54:12.640Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "akihabara-ps",
-      "name": "秋葉原ポーカースタジアム",
-      "description": "秋葉原駅徒歩3分。初心者から上級者まで楽しめる大型ポーカールーム。",
+      "id": "9high-sendai",
+      "name": "9High",
+      "description": "仙台市青葉区のポーカールーム。",
       "location": {
-        "prefecture": "東京都",
-        "city": "千代田区",
-        "address": "外神田1-15-16",
-        "access": "JR秋葉原駅電気街口より徒歩3分"
+        "prefecture": "宮城県",
+        "city": "仙台市青葉区",
+        "address": "詳細住所",
+        "access": "仙台駅から徒歩圏内"
       },
+      "table_count": 6,
       "contact": {
         "phone": "03-xxxx-xxxx",
-        "email": "info@akihabara-ps.jp",
-        "website": "https://akihabara-ps.jp"
+        "email": "info@9high-sendai.jp",
+        "website": "https://9high-sendai.jp"
       },
       "business_hours": {
-        "weekday": "17:00-05:00",
-        "weekend": "13:00-05:00",
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
         "holidays": "年中無休"
       },
       "features": [
-        "最大30テーブル",
-        "初心者講習毎日開催",
-        "トーナメント毎日開催",
-        "ドリンクバー完備"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "active",
+        "plan": "premium",
+        "expires_at": "2024-12-31T23:59:59Z"
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "deer-gold-sendai",
+      "name": "Amusement Bar DEER GOLD",
+      "description": "仙台市青葉区のアミューズメントバー。ポーカーも楽しめます。",
+      "location": {
+        "prefecture": "宮城県",
+        "city": "仙台市青葉区",
+        "address": "詳細住所",
+        "access": "仙台駅から徒歩圏内"
+      },
+      "table_count": 4,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@deer-gold-sendai.jp",
+        "website": "https://deer-gold-sendai.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "active",
+        "plan": "premium",
+        "expires_at": "2024-12-31T23:59:59Z"
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "whale-chiba",
+      "name": "WHALE",
+      "description": "千葉市美浜区のポーカールーム。",
+      "location": {
+        "prefecture": "千葉県",
+        "city": "千葉市美浜区",
+        "address": "詳細住所",
+        "access": "海浜幕張駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@whale-chiba.jp",
+        "website": "https://whale-chiba.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "active",
+        "plan": "premium",
+        "expires_at": "2024-12-31T23:59:59Z"
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jacks-yotsukaido",
+      "name": "JACKS 四街道店",
+      "description": "四街道市のポーカールーム。",
+      "location": {
+        "prefecture": "千葉県",
+        "city": "四街道市",
+        "address": "詳細住所",
+        "access": "四街道駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jacks-yotsukaido.jp",
+        "website": "https://jacks-yotsukaido.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "active",
+        "plan": "premium",
+        "expires_at": "2024-12-31T23:59:59Z"
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "kings-chiba",
+      "name": "キングス",
+      "description": "千葉市中央区のポーカールーム。",
+      "location": {
+        "prefecture": "千葉県",
+        "city": "千葉市中央区",
+        "address": "詳細住所",
+        "access": "千葉駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@kings-chiba.jp",
+        "website": "https://kings-chiba.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.176Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 30
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "shibuya-guild",
-      "name": "渋谷ギルド",
-      "description": "渋谷駅徒歩5分。スタイリッシュな内装の人気ポーカールーム。",
+      "id": "big-slick-matsudo",
+      "name": "Amusement Casino Bar BIG SLICK",
+      "description": "松戸市のカジノバー。本格的なポーカーが楽しめます。",
       "location": {
-        "prefecture": "東京都",
-        "city": "渋谷区",
-        "address": "渋谷2-10-15",
-        "access": "JR渋谷駅ハチ公口より徒歩5分"
+        "prefecture": "千葉県",
+        "city": "松戸市",
+        "address": "詳細住所",
+        "access": "松戸駅から徒歩圏内"
       },
+      "table_count": 7,
       "contact": {
         "phone": "03-xxxx-xxxx",
-        "email": "info@shibuya-guild.jp",
-        "website": "https://shibuya-guild.jp"
+        "email": "info@big-slick-matsudo.jp",
+        "website": "https://big-slick-matsudo.jp"
       },
       "business_hours": {
-        "weekday": "18:00-04:00",
-        "weekend": "15:00-05:00",
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
         "holidays": "年中無休"
       },
       "features": [
-        "プレミアムラウンジ",
-        "VIPルーム完備",
-        "高額トーナメント開催",
-        "バー併設"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 18
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "roppongi-flush",
-      "name": "六本木フラッシュ",
-      "description": "六本木の中心地。国際的な雰囲気のポーカールーム。",
+      "id": "color-matsudo",
+      "name": "COLOR",
+      "description": "松戸市のポーカールーム。",
+      "location": {
+        "prefecture": "千葉県",
+        "city": "松戸市",
+        "address": "詳細住所",
+        "access": "松戸駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@color-matsudo.jp",
+        "website": "https://color-matsudo.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "snazzy-ichikawa",
+      "name": "snazzy",
+      "description": "市川市のポーカールーム。",
+      "location": {
+        "prefecture": "千葉県",
+        "city": "市川市",
+        "address": "詳細住所",
+        "access": "市川駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@snazzy-ichikawa.jp",
+        "website": "https://snazzy-ichikawa.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "rot-sakado",
+      "name": "ROT",
+      "description": "坂戸市のポーカールーム。",
+      "location": {
+        "prefecture": "埼玉県",
+        "city": "坂戸市",
+        "address": "詳細住所",
+        "access": "坂戸駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@rot-sakado.jp",
+        "website": "https://rot-sakado.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "bigboss-kawagoe",
+      "name": "BIGBOSS",
+      "description": "川越市のポーカールーム。",
+      "location": {
+        "prefecture": "埼玉県",
+        "city": "川越市",
+        "address": "詳細住所",
+        "access": "川越駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@bigboss-kawagoe.jp",
+        "website": "https://bigboss-kawagoe.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "omiya-bontsune",
+      "name": "丁半居酒屋 大宮盆常",
+      "description": "大宮区の居酒屋。ポーカーも楽しめます。",
+      "location": {
+        "prefecture": "埼玉県",
+        "city": "さいたま市大宮区",
+        "address": "詳細住所",
+        "access": "大宮駅から徒歩圏内"
+      },
+      "table_count": 4,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@omiya-bontsune.jp",
+        "website": "https://omiya-bontsune.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gaming-bar-bj",
+      "name": "Gaming Bar BJ.",
+      "description": "川口市のゲーミングバー。",
+      "location": {
+        "prefecture": "埼玉県",
+        "city": "川口市",
+        "address": "詳細住所",
+        "access": "川口駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gaming-bar-bj.jp",
+        "website": "https://gaming-bar-bj.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "greenroom-casino",
+      "name": "GreenRoom Casino",
+      "description": "川口市のカジノルーム。",
+      "location": {
+        "prefecture": "埼玉県",
+        "city": "川口市",
+        "address": "詳細住所",
+        "access": "川口駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@greenroom-casino.jp",
+        "website": "https://greenroom-casino.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "tems-tokyo",
+      "name": "Tem's Tokyo",
+      "description": "豊島区のポーカールーム。ティムズ東京。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "address": "詳細住所",
+        "access": "池袋駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@tems-tokyo.jp",
+        "website": "https://tems-tokyo.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "alcapone-chuo",
+      "name": "アルカポネ",
+      "description": "中央区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "中央区",
+        "address": "詳細住所",
+        "access": "銀座駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@alcapone-chuo.jp",
+        "website": "https://alcapone-chuo.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "double-pot",
+      "name": "Double Pot",
+      "description": "墨田区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "墨田区",
+        "address": "詳細住所",
+        "access": "押上駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@double-pot.jp",
+        "website": "https://double-pot.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gravity-suginami",
+      "name": "GRAVITY",
+      "description": "杉並区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "杉並区",
+        "address": "詳細住所",
+        "access": "高円寺駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gravity-suginami.jp",
+        "website": "https://gravity-suginami.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "the-class",
+      "name": "The Class",
+      "description": "港区の高級ポーカールーム。",
       "location": {
         "prefecture": "東京都",
         "city": "港区",
-        "address": "六本木6-10-1",
-        "access": "東京メトロ六本木駅より徒歩2分"
+        "address": "詳細住所",
+        "access": "六本木駅から徒歩圏内"
       },
+      "table_count": 12,
       "contact": {
         "phone": "03-xxxx-xxxx",
-        "email": "info@roppongi-flush.jp",
-        "website": "https://roppongi-flush.jp"
-      },
-      "business_hours": {
-        "weekday": "19:00-05:00",
-        "weekend": "17:00-06:00",
-        "holidays": "年中無休"
-      },
-      "features": [
-        "英語対応スタッフ",
-        "国際トーナメント開催",
-        "ハイリミットゲーム",
-        "会員制ラウンジ"
-      ],
-      "subscription": {
-        "status": "inactive",
-        "plan": "free",
-        "expires_at": null
-      },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 15
-    },
-    {
-      "id": "namba-pokerpro",
-      "name": "なんばポーカープロ",
-      "description": "なんば駅直結。関西最大級のポーカールーム。",
-      "location": {
-        "prefecture": "大阪府",
-        "city": "大阪市中央区",
-        "address": "難波4-1-15",
-        "access": "地下鉄なんば駅直結"
-      },
-      "contact": {
-        "phone": "06-xxxx-xxxx",
-        "email": "info@namba-pokerpro.jp",
-        "website": "https://namba-pokerpro.jp"
-      },
-      "business_hours": {
-        "weekday": "17:00-04:00",
-        "weekend": "14:00-05:00",
-        "holidays": "年中無休"
-      },
-      "features": [
-        "25テーブル完備",
-        "関西最大級",
-        "毎日トーナメント",
-        "初心者歓迎"
-      ],
-      "subscription": {
-        "status": "inactive",
-        "plan": "free",
-        "expires_at": null
-      },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 25
-    },
-    {
-      "id": "umeda-royal",
-      "name": "梅田ロイヤルポーカー",
-      "description": "梅田駅徒歩3分。落ち着いた雰囲気の本格ポーカールーム。",
-      "location": {
-        "prefecture": "大阪府",
-        "city": "大阪市北区",
-        "address": "梅田1-8-17",
-        "access": "JR大阪駅より徒歩3分"
-      },
-      "contact": {
-        "phone": "06-xxxx-xxxx",
-        "email": "info@umeda-royal.jp",
-        "website": "https://umeda-royal.jp"
+        "email": "info@the-class.jp",
+        "website": "https://the-class.jp"
       },
       "business_hours": {
         "weekday": "18:00-03:00",
-        "weekend": "16:00-04:00",
-        "holidays": "定休日：火曜"
-      },
-      "features": [
-        "高級感ある内装",
-        "個室あり",
-        "プロディーラー在籍",
-        "会員特典充実"
-      ],
-      "subscription": {
-        "status": "inactive",
-        "plan": "free",
-        "expires_at": null
-      },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 10
-    },
-    {
-      "id": "sakae-allin",
-      "name": "栄オールイン",
-      "description": "栄駅徒歩3分。中部地方最大級のポーカールーム。",
-      "location": {
-        "prefecture": "愛知県",
-        "city": "名古屋市中区",
-        "address": "栄3-15-33",
-        "access": "地下鉄栄駅より徒歩3分"
-      },
-      "contact": {
-        "phone": "052-xxxx-xxxx",
-        "email": "info@sakae-allin.jp",
-        "website": "https://sakae-allin.jp"
-      },
-      "business_hours": {
-        "weekday": "18:00-03:00",
-        "weekend": "15:00-04:00",
+        "weekend": "16:00-05:00",
         "holidays": "年中無休"
       },
       "features": [
-        "20テーブル",
-        "東海地方最大級",
-        "駐車場完備",
-        "初心者講習あり"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 20
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "tenjin-pokercity",
-      "name": "天神ポーカーシティ",
-      "description": "天神駅徒歩2分。九州最大級のポーカールーム。",
+      "id": "a-high-hachioji",
+      "name": "A HIGH",
+      "description": "八王子市のポーカールーム。",
       "location": {
-        "prefecture": "福岡県",
-        "city": "福岡市中央区",
-        "address": "天神2-13-18",
-        "access": "地下鉄天神駅より徒歩2分"
+        "prefecture": "東京都",
+        "city": "八王子市",
+        "address": "詳細住所",
+        "access": "八王子駅から徒歩圏内"
       },
+      "table_count": 8,
       "contact": {
-        "phone": "092-xxxx-xxxx",
-        "email": "info@tenjin-pokercity.jp",
-        "website": "https://tenjin-pokercity.jp"
+        "phone": "03-xxxx-xxxx",
+        "email": "info@a-high-hachioji.jp",
+        "website": "https://a-high-hachioji.jp"
       },
       "business_hours": {
         "weekday": "18:00-03:00",
-        "weekend": "15:00-04:00",
+        "weekend": "16:00-05:00",
         "holidays": "年中無休"
       },
       "features": [
-        "九州最大級",
-        "15テーブル",
-        "女性割引あり",
-        "学生割引あり"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 15
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "susukino-deck",
-      "name": "すすきのデッキ",
-      "description": "すすきの駅徒歩5分。北海道最大のポーカールーム。",
+      "id": "nuts-star",
+      "name": "Nuts&Star",
+      "description": "大田区のポーカールーム。",
       "location": {
-        "prefecture": "北海道",
-        "city": "札幌市中央区",
-        "address": "南4条西3-1-1",
-        "access": "地下鉄すすきの駅より徒歩5分"
+        "prefecture": "東京都",
+        "city": "大田区",
+        "address": "詳細住所",
+        "access": "蒲田駅から徒歩圏内"
       },
+      "table_count": 6,
       "contact": {
-        "phone": "011-xxxx-xxxx",
-        "email": "info@susukino-deck.jp",
-        "website": "https://susukino-deck.jp"
+        "phone": "03-xxxx-xxxx",
+        "email": "info@nuts-star.jp",
+        "website": "https://nuts-star.jp"
       },
       "business_hours": {
         "weekday": "18:00-03:00",
-        "weekend": "16:00-04:00",
-        "holidays": "定休日：月曜"
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
       },
       "features": [
-        "北海道最大",
-        "暖房完備",
-        "地元プレイヤー多数",
-        "アットホーム"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 8
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     },
     {
-      "id": "yokohama-straight",
-      "name": "横浜ストレート",
-      "description": "横浜駅西口徒歩3分。港町の雰囲気あるポーカールーム。",
+      "id": "salon-de-poker",
+      "name": "SALON de poker",
+      "description": "港区の高級ポーカーサロン。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "詳細住所",
+        "access": "麻布十番駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@salon-de-poker.jp",
+        "website": "https://salon-de-poker.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "m-holdem-meguro",
+      "name": "m HOLD'EM目黒",
+      "description": "目黒区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "目黒区",
+        "address": "詳細住所",
+        "access": "目黒駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@m-holdem-meguro.jp",
+        "website": "https://m-holdem-meguro.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-kabukicho",
+      "name": "BLOW歌舞伎町",
+      "description": "新宿区歌舞伎町のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "歌舞伎町",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 15,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-kabukicho.jp",
+        "website": "https://blow-kabukicho.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "roots-shibuya",
+      "name": "ROOTS",
+      "description": "渋谷区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "address": "詳細住所",
+        "access": "渋谷駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@roots-shibuya.jp",
+        "website": "https://roots-shibuya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "p3-shibuya",
+      "name": "P3 (PokerRoom P3)",
+      "description": "渋谷区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "address": "詳細住所",
+        "access": "渋谷駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@p3-shibuya.jp",
+        "website": "https://p3-shibuya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-ebisu",
+      "name": "BLOW恵比寿",
+      "description": "恵比寿のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "address": "恵比寿",
+        "access": "恵比寿駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-ebisu.jp",
+        "website": "https://blow-ebisu.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "slowly-ota",
+      "name": "Slowly",
+      "description": "大田区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "大田区",
+        "address": "詳細住所",
+        "access": "大森駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@slowly-ota.jp",
+        "website": "https://slowly-ota.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "akiba-guild",
+      "name": "アキバギルド",
+      "description": "秋葉原のポーカーギルド。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "address": "秋葉原",
+        "access": "秋葉原駅から徒歩圏内"
+      },
+      "table_count": 20,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@akiba-guild.jp",
+        "website": "https://akiba-guild.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "ikebukuro-guild",
+      "name": "イケブクロギルド",
+      "description": "池袋のポーカーギルド。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "address": "池袋",
+        "access": "池袋駅から徒歩圏内"
+      },
+      "table_count": 18,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@ikebukuro-guild.jp",
+        "website": "https://ikebukuro-guild.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "akihabara-casino-quest",
+      "name": "秋葉原カジノクエスト",
+      "description": "秋葉原のゲーム感覚で楽しめるカジノ。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "千代田区",
+        "address": "秋葉原",
+        "access": "秋葉原駅から徒歩圏内"
+      },
+      "table_count": 15,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@akihabara-casino-quest.jp",
+        "website": "https://akihabara-casino-quest.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gutshot-bunkyo",
+      "name": "GUTSHOT",
+      "description": "文京区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "文京区",
+        "address": "詳細住所",
+        "access": "後楽園駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gutshot-bunkyo.jp",
+        "website": "https://gutshot-bunkyo.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "kasai-h3al",
+      "name": "葛西カジノバー H3AL",
+      "description": "江戸川区葛西のカジノバー。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "江戸川区",
+        "address": "葛西",
+        "access": "葛西駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@kasai-h3al.jp",
+        "website": "https://kasai-h3al.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "osker-shibuya",
+      "name": "OSKER",
+      "description": "渋谷区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "渋谷区",
+        "address": "詳細住所",
+        "access": "渋谷駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@osker-shibuya.jp",
+        "website": "https://osker-shibuya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "ginza-paraha",
+      "name": "銀座カジノバー パラハ",
+      "description": "銀座の高級カジノバー。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "中央区",
+        "address": "銀座",
+        "access": "銀座駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@ginza-paraha.jp",
+        "website": "https://ginza-paraha.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "starryeye-kita",
+      "name": "starryeye",
+      "description": "北区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "北区",
+        "address": "詳細住所",
+        "access": "王子駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@starryeye-kita.jp",
+        "website": "https://starryeye-kita.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "big-bang-shinjuku",
+      "name": "BiG BANG",
+      "description": "新宿区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@big-bang-shinjuku.jp",
+        "website": "https://big-bang-shinjuku.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "tachikawa-joker",
+      "name": "立川JOKER",
+      "description": "立川市のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "立川市",
+        "address": "詳細住所",
+        "access": "立川駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@tachikawa-joker.jp",
+        "website": "https://tachikawa-joker.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "shimbashi-hathaway",
+      "name": "新橋ハサウェイ",
+      "description": "新橋のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "新橋",
+        "access": "新橋駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@shimbashi-hathaway.jp",
+        "website": "https://shimbashi-hathaway.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jiqoo-shinjuku",
+      "name": "ジクー (JiQoo)",
+      "description": "新宿区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jiqoo-shinjuku.jp",
+        "website": "https://jiqoo-shinjuku.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "side-nerima",
+      "name": "side",
+      "description": "練馬区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "練馬区",
+        "address": "詳細住所",
+        "access": "練馬駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@side-nerima.jp",
+        "website": "https://side-nerima.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gion-shinjuku",
+      "name": "祇園 (Poker Bar 祇園)",
+      "description": "新宿区のポーカーバー。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gion-shinjuku.jp",
+        "website": "https://gion-shinjuku.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "backdoor-minato",
+      "name": "BACKDOOR",
+      "description": "港区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "詳細住所",
+        "access": "六本木駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@backdoor-minato.jp",
+        "website": "https://backdoor-minato.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "nekokaji-shinjuku",
+      "name": "猫遊技場 -ネコカジ-",
+      "description": "新宿区の猫カフェ風カジノ。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@nekokaji-shinjuku.jp",
+        "website": "https://nekokaji-shinjuku.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "kirameki-minato",
+      "name": "煌 (Poker Bar 煌)",
+      "description": "港区のポーカーバー。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "詳細住所",
+        "access": "赤坂駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@kirameki-minato.jp",
+        "website": "https://kirameki-minato.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "kajisuta-tokyo",
+      "name": "カジスタ東京",
+      "description": "新宿区のカジノスタジアム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 25,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@kajisuta-tokyo.jp",
+        "website": "https://kajisuta-tokyo.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "hige-gorilla",
+      "name": "HIGE GORILLA",
+      "description": "新宿区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@hige-gorilla.jp",
+        "website": "https://hige-gorilla.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "luck-raise",
+      "name": "Luck Raise (ラックレイズ)",
+      "description": "港区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "詳細住所",
+        "access": "六本木駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@luck-raise.jp",
+        "website": "https://luck-raise.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-roppongi",
+      "name": "BLOW六本木",
+      "description": "六本木のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "港区",
+        "address": "六本木",
+        "access": "六本木駅から徒歩圏内"
+      },
+      "table_count": 15,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-roppongi.jp",
+        "website": "https://blow-roppongi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "ginza-beverly-hills",
+      "name": "銀座ビバリーヒルズ",
+      "description": "銀座の高級カジノ。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "中央区",
+        "address": "銀座",
+        "access": "銀座駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@ginza-beverly-hills.jp",
+        "website": "https://ginza-beverly-hills.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "casino-venus",
+      "name": "カジノヴィーナス",
+      "description": "江東区のカジノ。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "江東区",
+        "address": "詳細住所",
+        "access": "豊洲駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@casino-venus.jp",
+        "website": "https://casino-venus.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "bubble-shinagawa",
+      "name": "BUBBLE",
+      "description": "品川区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "品川区",
+        "address": "詳細住所",
+        "access": "品川駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@bubble-shinagawa.jp",
+        "website": "https://bubble-shinagawa.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "poker-face-nakano",
+      "name": "ポーカーフェイス",
+      "description": "中野区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "中野区",
+        "address": "詳細住所",
+        "access": "中野駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@poker-face-nakano.jp",
+        "website": "https://poker-face-nakano.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "shuffle-shinagawa",
+      "name": "SHUFFLE",
+      "description": "品川区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "品川区",
+        "address": "詳細住所",
+        "access": "大井町駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@shuffle-shinagawa.jp",
+        "website": "https://shuffle-shinagawa.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "raid-gig",
+      "name": "RAID=GIG",
+      "description": "杉並区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "杉並区",
+        "address": "詳細住所",
+        "access": "荻窪駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@raid-gig.jp",
+        "website": "https://raid-gig.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jcs-holdem",
+      "name": "JCS Hold'em",
+      "description": "新宿区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "詳細住所",
+        "access": "新宿駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jcs-holdem.jp",
+        "website": "https://jcs-holdem.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "corner-pocket",
+      "name": "Corner Pocket",
+      "description": "台東区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "台東区",
+        "address": "詳細住所",
+        "access": "上野駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@corner-pocket.jp",
+        "website": "https://corner-pocket.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jackin-adachi",
+      "name": "JACIN (ジャックイン)",
+      "description": "足立区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "足立区",
+        "address": "詳細住所",
+        "access": "北千住駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jackin-adachi.jp",
+        "website": "https://jackin-adachi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "my-room-machida",
+      "name": "My room",
+      "description": "町田市のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "町田市",
+        "address": "詳細住所",
+        "access": "町田駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@my-room-machida.jp",
+        "website": "https://my-room-machida.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "reraise-toshima",
+      "name": "RERAISE",
+      "description": "豊島区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "豊島区",
+        "address": "詳細住所",
+        "access": "池袋駅から徒歩圏内"
+      },
+      "table_count": 9,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@reraise-toshima.jp",
+        "website": "https://reraise-toshima.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "azplace-nakano",
+      "name": "アズプレイス",
+      "description": "中野区のポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "中野区",
+        "address": "詳細住所",
+        "access": "中野駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@azplace-nakano.jp",
+        "website": "https://azplace-nakano.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "preflop-yokohama",
+      "name": "PreFlopYOKOHAMA",
+      "description": "横浜市西区のポーカールーム。",
       "location": {
         "prefecture": "神奈川県",
         "city": "横浜市西区",
-        "address": "南幸2-15-1",
-        "access": "JR横浜駅西口より徒歩3分"
+        "address": "詳細住所",
+        "access": "横浜駅から徒歩圏内"
       },
+      "table_count": 12,
       "contact": {
-        "phone": "045-xxxx-xxxx",
-        "email": "info@yokohama-straight.jp",
-        "website": "https://yokohama-straight.jp"
+        "phone": "03-xxxx-xxxx",
+        "email": "info@preflop-yokohama.jp",
+        "website": "https://preflop-yokohama.jp"
       },
       "business_hours": {
         "weekday": "18:00-03:00",
-        "weekend": "15:00-04:00",
+        "weekend": "16:00-05:00",
         "holidays": "年中無休"
       },
       "features": [
-        "オーシャンビュー",
-        "18テーブル",
-        "バー併設",
-        "深夜営業"
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
       ],
       "subscription": {
         "status": "inactive",
         "plan": "free",
         "expires_at": null
       },
-      "created_at": "2025-06-28T11:54:56.180Z",
-      "updated_at": "2025-06-28T11:54:56.180Z",
-      "table_count": 18
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "triple8-kawasaki",
+      "name": "Triple8",
+      "description": "川崎市川崎区のポーカールーム。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "川崎市川崎区",
+        "address": "詳細住所",
+        "access": "川崎駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@triple8-kawasaki.jp",
+        "website": "https://triple8-kawasaki.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "big-slick-shin-yokohama",
+      "name": "BIG SLICK POKER 新横浜",
+      "description": "新横浜のポーカールーム。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "横浜市港北区",
+        "address": "新横浜",
+        "access": "新横浜駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@big-slick-shin-yokohama.jp",
+        "website": "https://big-slick-shin-yokohama.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "rio-suite-shonan",
+      "name": "RIO SUITE SHONAN",
+      "description": "藤沢市のポーカールーム。湘南エリア。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "藤沢市",
+        "address": "詳細住所",
+        "access": "藤沢駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@rio-suite-shonan.jp",
+        "website": "https://rio-suite-shonan.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "big-slick-kawasaki",
+      "name": "BIG SLICK POKER 川崎",
+      "description": "川崎のポーカールーム。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "川崎市川崎区",
+        "address": "詳細住所",
+        "access": "川崎駅から徒歩圏内"
+      },
+      "table_count": 9,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@big-slick-kawasaki.jp",
+        "website": "https://big-slick-kawasaki.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "live-ace-yokohama",
+      "name": "Live Ace 横浜",
+      "description": "横浜市西区のポーカールーム。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "横浜市西区",
+        "address": "詳細住所",
+        "access": "横浜駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@live-ace-yokohama.jp",
+        "website": "https://live-ace-yokohama.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "on-air-yokohama",
+      "name": "オンエアー横浜",
+      "description": "横浜市西区のポーカールーム。",
+      "location": {
+        "prefecture": "神奈川県",
+        "city": "横浜市西区",
+        "address": "詳細住所",
+        "access": "横浜駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@on-air-yokohama.jp",
+        "website": "https://on-air-yokohama.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "aces-ota",
+      "name": "Aces太田",
+      "description": "太田市のポーカールーム。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "太田市",
+        "address": "詳細住所",
+        "access": "太田駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@aces-ota.jp",
+        "website": "https://aces-ota.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "tengo-fujioka",
+      "name": "アミューズメントバー TENGO",
+      "description": "藤岡市のアミューズメントバー。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "藤岡市",
+        "address": "詳細住所",
+        "access": "新町駅から徒歩圏内"
+      },
+      "table_count": 4,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@tengo-fujioka.jp",
+        "website": "https://tengo-fujioka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jacks-takasaki",
+      "name": "Jacks高崎店",
+      "description": "高崎市のポーカールーム。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "高崎市",
+        "address": "詳細住所",
+        "access": "高崎駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jacks-takasaki.jp",
+        "website": "https://jacks-takasaki.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jacks-isesaki",
+      "name": "Jacks伊勢崎店",
+      "description": "伊勢崎市のポーカールーム。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "伊勢崎市",
+        "address": "詳細住所",
+        "access": "伊勢崎駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jacks-isesaki.jp",
+        "website": "https://jacks-isesaki.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "queens-ota",
+      "name": "Queens",
+      "description": "太田市のポーカールーム。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "太田市",
+        "address": "詳細住所",
+        "access": "太田駅から徒歩圏内"
+      },
+      "table_count": 7,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@queens-ota.jp",
+        "website": "https://queens-ota.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "global-lounge",
+      "name": "Global Lounge",
+      "description": "桐生市のポーカールーム。",
+      "location": {
+        "prefecture": "群馬県",
+        "city": "桐生市",
+        "address": "詳細住所",
+        "access": "桐生駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@global-lounge.jp",
+        "website": "https://global-lounge.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "six-tsukuba",
+      "name": "SIX TSUKUBA",
+      "description": "つくば市のポーカールーム。",
+      "location": {
+        "prefecture": "茨城県",
+        "city": "つくば市",
+        "address": "詳細住所",
+        "access": "つくば駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@six-tsukuba.jp",
+        "website": "https://six-tsukuba.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "liiink-yokkaichi",
+      "name": "Liiink",
+      "description": "四日市市のポーカールーム。",
+      "location": {
+        "prefecture": "三重県",
+        "city": "四日市市",
+        "address": "詳細住所",
+        "access": "四日市駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@liiink-yokkaichi.jp",
+        "website": "https://liiink-yokkaichi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "janken-poker-gifu",
+      "name": "じゃんけんポーカー岐阜店",
+      "description": "岐阜市のポーカールーム。",
+      "location": {
+        "prefecture": "岐阜県",
+        "city": "岐阜市",
+        "address": "詳細住所",
+        "access": "岐阜駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@janken-poker-gifu.jp",
+        "website": "https://janken-poker-gifu.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gap-streak",
+      "name": "GAP STREAK",
+      "description": "岐阜市のポーカールーム。",
+      "location": {
+        "prefecture": "岐阜県",
+        "city": "岐阜市",
+        "address": "詳細住所",
+        "access": "岐阜駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gap-streak.jp",
+        "website": "https://gap-streak.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "ritz-nagoya",
+      "name": "リッツ (Ritz)",
+      "description": "名古屋市中区のポーカールーム。",
+      "location": {
+        "prefecture": "愛知県",
+        "city": "名古屋市中区",
+        "address": "詳細住所",
+        "access": "栄駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@ritz-nagoya.jp",
+        "website": "https://ritz-nagoya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "nagoya-guild",
+      "name": "ナゴヤギルド",
+      "description": "名古屋市中村区のポーカーギルド。",
+      "location": {
+        "prefecture": "愛知県",
+        "city": "名古屋市中村区",
+        "address": "詳細住所",
+        "access": "名古屋駅から徒歩圏内"
+      },
+      "table_count": 15,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@nagoya-guild.jp",
+        "website": "https://nagoya-guild.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "janken-poker-nagoya",
+      "name": "AMUSEMENT じゃんけんポーカー",
+      "description": "名古屋市千種区のポーカールーム。",
+      "location": {
+        "prefecture": "愛知県",
+        "city": "名古屋市千種区",
+        "address": "詳細住所",
+        "access": "千種駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@janken-poker-nagoya.jp",
+        "website": "https://janken-poker-nagoya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "royal-flush-nagoya",
+      "name": "ロイヤルフラッシュ",
+      "description": "名古屋市中区のポーカールーム。",
+      "location": {
+        "prefecture": "愛知県",
+        "city": "名古屋市中区",
+        "address": "詳細住所",
+        "access": "栄駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@royal-flush-nagoya.jp",
+        "website": "https://royal-flush-nagoya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "niigata-guild",
+      "name": "新潟ギルド",
+      "description": "新潟市中央区のポーカーギルド。",
+      "location": {
+        "prefecture": "新潟県",
+        "city": "新潟市中央区",
+        "address": "詳細住所",
+        "access": "新潟駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@niigata-guild.jp",
+        "website": "https://niigata-guild.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "kanazawa-guild",
+      "name": "金沢ギルド",
+      "description": "金沢市のポーカーギルド。",
+      "location": {
+        "prefecture": "石川県",
+        "city": "金沢市",
+        "address": "詳細住所",
+        "access": "金沢駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@kanazawa-guild.jp",
+        "website": "https://kanazawa-guild.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "giina-nagano",
+      "name": "Giina",
+      "description": "長野市のポーカールーム。",
+      "location": {
+        "prefecture": "長野県",
+        "city": "長野市",
+        "address": "詳細住所",
+        "access": "長野駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@giina-nagano.jp",
+        "website": "https://giina-nagano.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "utg-matsumoto",
+      "name": "PokerBar UTG",
+      "description": "松本市のポーカーバー。",
+      "location": {
+        "prefecture": "長野県",
+        "city": "松本市",
+        "address": "詳細住所",
+        "access": "松本駅から徒歩圏内"
+      },
+      "table_count": 5,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@utg-matsumoto.jp",
+        "website": "https://utg-matsumoto.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-sannomiya",
+      "name": "BLOW三宮",
+      "description": "神戸市中央区のポーカールーム。",
+      "location": {
+        "prefecture": "兵庫県",
+        "city": "神戸市中央区",
+        "address": "三宮",
+        "access": "三宮駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-sannomiya.jp",
+        "website": "https://blow-sannomiya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "arekey2-nishinomiya",
+      "name": "ArekeyⅡ",
+      "description": "西宮市のポーカールーム。",
+      "location": {
+        "prefecture": "兵庫県",
+        "city": "西宮市",
+        "address": "詳細住所",
+        "access": "西宮駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@arekey2-nishinomiya.jp",
+        "website": "https://arekey2-nishinomiya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "arekey-nishinomiya",
+      "name": "Arekey",
+      "description": "西宮市のポーカールーム。",
+      "location": {
+        "prefecture": "兵庫県",
+        "city": "西宮市",
+        "address": "詳細住所",
+        "access": "西宮駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@arekey-nishinomiya.jp",
+        "website": "https://arekey-nishinomiya.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "icasino-kobe",
+      "name": "#.icasino",
+      "description": "神戸市中央区のカジノ。",
+      "location": {
+        "prefecture": "兵庫県",
+        "city": "神戸市中央区",
+        "address": "詳細住所",
+        "access": "三宮駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@icasino-kobe.jp",
+        "website": "https://icasino-kobe.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "grand-roi",
+      "name": "Grand Roi",
+      "description": "尼崎市のポーカールーム。",
+      "location": {
+        "prefecture": "兵庫県",
+        "city": "尼崎市",
+        "address": "詳細住所",
+        "access": "尼崎駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@grand-roi.jp",
+        "website": "https://grand-roi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "janken-poker-kyoto",
+      "name": "じゃんけんポーカー京都河原町店",
+      "description": "京都市中京区のポーカールーム。",
+      "location": {
+        "prefecture": "京都府",
+        "city": "京都市中京区",
+        "address": "河原町",
+        "access": "河原町駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@janken-poker-kyoto.jp",
+        "website": "https://janken-poker-kyoto.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-kiyamachi",
+      "name": "BLOW木屋町",
+      "description": "京都市下京区のポーカールーム。",
+      "location": {
+        "prefecture": "京都府",
+        "city": "京都市下京区",
+        "address": "木屋町",
+        "access": "京都河原町駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-kiyamachi.jp",
+        "website": "https://blow-kiyamachi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "the-river-kyoto",
+      "name": "The RIVER 京都祇園",
+      "description": "京都市東山区のポーカールーム。",
+      "location": {
+        "prefecture": "京都府",
+        "city": "京都市東山区",
+        "address": "祇園",
+        "access": "祇園四条駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@the-river-kyoto.jp",
+        "website": "https://the-river-kyoto.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "leje-kyoto",
+      "name": "Amusement bar Leje (Leje京都)",
+      "description": "京都市中京区のアミューズメントバー。",
+      "location": {
+        "prefecture": "京都府",
+        "city": "京都市中京区",
+        "address": "詳細住所",
+        "access": "烏丸御池駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@leje-kyoto.jp",
+        "website": "https://leje-kyoto.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "pool-blow-kyoto",
+      "name": "POOL BLOW",
+      "description": "京都市のポーカールーム。",
+      "location": {
+        "prefecture": "京都府",
+        "city": "京都市",
+        "address": "詳細住所",
+        "access": "京都駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@pool-blow-kyoto.jp",
+        "website": "https://pool-blow-kyoto.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "karuta-osaka",
+      "name": "歌留多",
+      "description": "大阪市中央区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市中央区",
+        "address": "詳細住所",
+        "access": "心斎橋駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@karuta-osaka.jp",
+        "website": "https://karuta-osaka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "nekokaji-shinsaibashi",
+      "name": "ネコカジ心斎橋",
+      "description": "大阪市中央区の猫カフェ風カジノ。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市中央区",
+        "address": "心斎橋",
+        "access": "心斎橋駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@nekokaji-shinsaibashi.jp",
+        "website": "https://nekokaji-shinsaibashi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "ggpl-osaka",
+      "name": "GGPL大阪",
+      "description": "大阪市北区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市北区",
+        "address": "詳細住所",
+        "access": "梅田駅から徒歩圏内"
+      },
+      "table_count": 15,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@ggpl-osaka.jp",
+        "website": "https://ggpl-osaka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "blow-suomachi",
+      "name": "BLOW周防町",
+      "description": "大阪市中央区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市中央区",
+        "address": "周防町",
+        "access": "堺筋本町駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@blow-suomachi.jp",
+        "website": "https://blow-suomachi.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "poker-live-osaka",
+      "name": "POKER LIVE OSAKA",
+      "description": "大阪市浪速区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市浪速区",
+        "address": "詳細住所",
+        "access": "なんば駅から徒歩圏内"
+      },
+      "table_count": 20,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@poker-live-osaka.jp",
+        "website": "https://poker-live-osaka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "alpaca-casino",
+      "name": "アルパカジノ",
+      "description": "大阪市中央区のカジノ。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市中央区",
+        "address": "詳細住所",
+        "access": "心斎橋駅から徒歩圏内"
+      },
+      "table_count": 8,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@alpaca-casino.jp",
+        "website": "https://alpaca-casino.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "gold-hirakata",
+      "name": "GOLD 枚方店",
+      "description": "枚方市のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "枚方市",
+        "address": "詳細住所",
+        "access": "枚方市駅から徒歩圏内"
+      },
+      "table_count": 6,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@gold-hirakata.jp",
+        "website": "https://gold-hirakata.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "jack-queen-osaka",
+      "name": "Jack&Queen",
+      "description": "大阪市浪速区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市浪速区",
+        "address": "詳細住所",
+        "access": "なんば駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@jack-queen-osaka.jp",
+        "website": "https://jack-queen-osaka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "amateras-osaka",
+      "name": "AMATERAS",
+      "description": "大阪市中央区のポーカールーム。",
+      "location": {
+        "prefecture": "大阪府",
+        "city": "大阪市中央区",
+        "address": "詳細住所",
+        "access": "心斎橋駅から徒歩圏内"
+      },
+      "table_count": 10,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@amateras-osaka.jp",
+        "website": "https://amateras-osaka.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
+    },
+    {
+      "id": "leje-hakata",
+      "name": "Leje博多店",
+      "description": "福岡市博多区のポーカールーム。",
+      "location": {
+        "prefecture": "福岡県",
+        "city": "福岡市博多区",
+        "address": "詳細住所",
+        "access": "博多駅から徒歩圏内"
+      },
+      "table_count": 12,
+      "contact": {
+        "phone": "03-xxxx-xxxx",
+        "email": "info@leje-hakata.jp",
+        "website": "https://leje-hakata.jp"
+      },
+      "business_hours": {
+        "weekday": "18:00-03:00",
+        "weekend": "16:00-05:00",
+        "holidays": "年中無休"
+      },
+      "features": [
+        "初心者歓迎",
+        "トーナメント開催",
+        "ドリンクサービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "inactive",
+        "plan": "free",
+        "expires_at": null
+      },
+      "created_at": "2025-06-28T14:54:12.644Z",
+      "updated_at": "2025-06-28T14:54:12.644Z"
     }
   ]
 }
