@@ -7,6 +7,7 @@ import storesData from '../../data/stores.json';
 import dealersData from '../../data/dealers.json';
 import PlayingCard from '@/components/PlayingCard';
 import PokerChip from '@/components/PokerChip';
+import AdSpace from '@/components/AdSpace';
 
 export default function Home() {
   const [showCards, setShowCards] = useState(false);
@@ -125,6 +126,11 @@ export default function Home() {
         </Link>
       </section>
 
+      {/* 広告スペース - ヒーローセクションの下 */}
+      <div className="mb-12 flex justify-center">
+        <AdSpace variant="banner" slot="home-hero-bottom" />
+      </div>
+
       <section className="mb-16 relative z-10">
         <h2 className="text-4xl font-bold mb-8 text-center text-poker-white">
           <span className="suit-heart text-poker-red mr-3 neon-flash"></span>
@@ -159,6 +165,11 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* 広告スペース - 大型ポーカールームセクションの下 */}
+      <div className="mb-12 flex justify-center">
+        <AdSpace variant="horizontal" slot="home-stores-bottom" className="max-w-4xl w-full" />
+      </div>
 
       <section className="mb-16 relative z-10">
         <div className="bg-gradient-to-r from-poker-darkgreen via-poker-black to-poker-darkred rounded-xl p-8 gradient-shift">

@@ -1,6 +1,7 @@
 import { Store } from '@/types';
 import Link from 'next/link';
 import storesData from '../../../data/stores.json';
+import AdSpace from '@/components/AdSpace';
 
 interface AreaGroup {
   area: string;
@@ -49,8 +50,13 @@ export default function RoomsPage() {
         </div>
       </div>
 
+      {/* 広告スペース - ヘッダー下 */}
+      <div className="mb-8 flex justify-center">
+        <AdSpace variant="banner" slot="rooms-header" />
+      </div>
+
       <div className="grid gap-12">
-        {areaGroups.map((areaGroup) => {
+        {areaGroups.map((areaGroup, areaIndex) => {
           const areaStores = getStoresByArea(areaGroup.area);
           
           if (areaStores.length === 0) return null;
@@ -122,6 +128,13 @@ export default function RoomsPage() {
                   </Link>
                 ))}
               </div>
+              
+              {/* エリアごとに広告を挿入（2つおきに） */}
+              {areaIndex > 0 && areaIndex % 2 === 0 && (
+                <div className="mt-8">
+                  <AdSpace variant="horizontal" slot={`rooms-area-${areaIndex}`} className="max-w-full" />
+                </div>
+              )}
             </div>
           );
         })}

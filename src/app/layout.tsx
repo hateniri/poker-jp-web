@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
+import Navigation from "@/components/Navigation";
+import AdManager from "@/components/AdManager";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,32 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-poker-black`}
       >
+        <AdManager />
         <header className="poker-gradient border-b-4 border-poker-gold">
-          <nav className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
-              <a href="/" className="flex items-center gap-2 text-2xl font-bold text-poker-white">
-                <span className="text-poker-red suit-spade text-3xl"></span>
-                <span className="text-poker-red suit-heart text-3xl"></span>
-                <span>ポーカーディーラー.jp</span>
-                <span className="text-poker-black suit-club text-3xl"></span>
-                <span className="text-poker-red suit-diamond text-3xl"></span>
-              </a>
-              <div className="flex gap-6 items-center">
-                <a href="/rooms" className="text-poker-white hover:text-poker-gold transition-colors font-semibold">
-                  全国の店舗
-                </a>
-                <a href="/jobs" className="text-poker-white hover:text-poker-gold transition-colors font-semibold">
-                  求人一覧
-                </a>
-                <a href="/salary" className="text-poker-white hover:text-poker-gold transition-colors font-semibold">
-                  時給相場
-                </a>
-                <a href="/subscribe" className="bg-poker-gold text-poker-black px-6 py-2 rounded-full hover:bg-yellow-400 font-bold chip-shadow transition-all hover:scale-105">
-                  求人掲載（月額1万円）
-                </a>
-              </div>
-            </div>
-          </nav>
+          <Navigation />
         </header>
         
         <main className="min-h-screen">
@@ -71,28 +51,28 @@ export default function RootLayout({
               <div>
                 <h3 className="font-bold text-poker-gold mb-4">サービス</h3>
                 <ul className="space-y-2">
-                  <li><a href="/jobs" className="hover:text-poker-gold">求人検索</a></li>
-                  <li><a href="/rooms" className="hover:text-poker-gold">店舗一覧</a></li>
-                  <li><a href="/salary" className="hover:text-poker-gold">時給相場</a></li>
-                  <li><a href="/subscribe" className="hover:text-poker-gold">求人掲載</a></li>
+                  <li><Link href="/jobs" className="hover:text-poker-gold">求人検索</Link></li>
+                  <li><Link href="/rooms" className="hover:text-poker-gold">店舗一覧</Link></li>
+                  <li><Link href="/salary" className="hover:text-poker-gold">時給相場</Link></li>
+                  <li><Link href="/subscribe" className="hover:text-poker-gold">求人掲載</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="font-bold text-poker-gold mb-4">エリア</h3>
                 <ul className="space-y-2">
-                  <li><a href="/rooms#kanto" className="hover:text-poker-gold">関東</a></li>
-                  <li><a href="/rooms#kansai" className="hover:text-poker-gold">関西</a></li>
-                  <li><a href="/rooms#chubu" className="hover:text-poker-gold">中部</a></li>
-                  <li><a href="/rooms#kyushu" className="hover:text-poker-gold">九州</a></li>
+                  <li><Link href="/rooms#kanto" className="hover:text-poker-gold">関東</Link></li>
+                  <li><Link href="/rooms#kansai" className="hover:text-poker-gold">関西</Link></li>
+                  <li><Link href="/rooms#chubu" className="hover:text-poker-gold">中部</Link></li>
+                  <li><Link href="/rooms#kyushu" className="hover:text-poker-gold">九州</Link></li>
                 </ul>
               </div>
               <div>
                 <h3 className="font-bold text-poker-gold mb-4">サポート</h3>
                 <ul className="space-y-2">
-                  <li><a href="https://github.com/hateniri/poker-jp-web/issues" className="hover:text-poker-gold">お問い合わせ</a></li>
-                  <li><a href="/review/new" className="hover:text-poker-gold">レビュー投稿</a></li>
-                  <li><a href="/terms" className="hover:text-poker-gold">利用規約</a></li>
-                  <li><a href="/privacy" className="hover:text-poker-gold">プライバシーポリシー</a></li>
+                  <li><a href="https://github.com/hateniri/poker-jp-web/issues" target="_blank" rel="noopener noreferrer" className="hover:text-poker-gold">お問い合わせ</a></li>
+                  <li><Link href="/review/new" className="hover:text-poker-gold">レビュー投稿</Link></li>
+                  <li><Link href="/terms" className="hover:text-poker-gold">利用規約</Link></li>
+                  <li><Link href="/privacy" className="hover:text-poker-gold">プライバシーポリシー</Link></li>
                 </ul>
               </div>
               <div>

@@ -178,3 +178,14 @@ body {
 .pulse-glow {
   animation: pulse-glow 2s infinite;
 }
+
+/* 広告スペースのシマー効果 */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s infinite;
+}

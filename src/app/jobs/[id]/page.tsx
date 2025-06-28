@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import jobsData from '../../../../data/jobs.json';
 import storesData from '../../../../data/stores.json';
 import DealerButton from '@/components/DealerButton';
+import AdSpace from '@/components/AdSpace';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -187,6 +188,11 @@ export default async function JobDetailPage({ params }: Props) {
               />
             </div>
           </div>
+        </div>
+
+        {/* 広告スペース - 求人詳細の下 */}
+        <div className="mb-8 flex justify-center">
+          <AdSpace variant="banner" slot={`job-detail-${id}`} />
         </div>
 
         {/* Store info */}
