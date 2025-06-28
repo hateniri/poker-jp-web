@@ -91,8 +91,8 @@ export default function RootLayout({
                 <ul className="space-y-2">
                   <li><a href="https://github.com/hateniri/poker-jp-web/issues" className="hover:text-poker-gold">お問い合わせ</a></li>
                   <li><a href="/review/new" className="hover:text-poker-gold">レビュー投稿</a></li>
-                  <li><a href="#" className="hover:text-poker-gold">利用規約</a></li>
-                  <li><a href="#" className="hover:text-poker-gold">プライバシーポリシー</a></li>
+                  <li><a href="/terms" className="hover:text-poker-gold">利用規約</a></li>
+                  <li><a href="/privacy" className="hover:text-poker-gold">プライバシーポリシー</a></li>
                 </ul>
               </div>
               <div>
