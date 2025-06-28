@@ -31,8 +31,10 @@ export default function RootLayout({
           <nav className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <a href="/" className="text-xl font-bold">ポーカーディーラー.jp</a>
-              <div className="flex gap-6">
+              <div className="flex gap-6 items-center">
+                <a href="/rooms" className="hover:text-gray-300">全国の店舗</a>
                 <a href="/jobs" className="hover:text-gray-300">求人一覧</a>
+                <a href="/salary" className="hover:text-gray-300">時給相場</a>
                 <a href="/subscribe" className="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-400">求人掲載（月額1万円）</a>
               </div>
             </div>

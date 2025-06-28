@@ -86,6 +86,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="grid md:grid-cols-2 gap-6 mb-12">
+        <Link href="/rooms" className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg p-8 hover:from-blue-600 hover:to-blue-700 transition-all">
+          <h2 className="text-2xl font-bold mb-3">全国のポーカールーム</h2>
+          <p className="mb-4">エリア別に全国のポーカールームを検索。営業時間や特徴を一覧で確認できます。</p>
+          <span className="inline-flex items-center">
+            詳しく見る
+            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
+        </Link>
+        
+        <Link href="/salary" className="bg-gradient-to-r from-green-500 to-green-600 text-white rounded-lg p-8 hover:from-green-600 hover:to-green-700 transition-all">
+          <h2 className="text-2xl font-bold mb-3">本日の時給相場</h2>
+          <p className="mb-4">リアルタイムで更新される全国の時給データ。エリア別の相場を確認できます。</p>
+          <span className="inline-flex items-center">
+            相場を確認
+            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
+        </Link>
+      </section>
+
       <section className="bg-gray-100 rounded-lg p-8 mb-12">
         <h2 className="text-2xl font-bold mb-4">サイトの特徴</h2>
         <div className="grid md:grid-cols-3 gap-6">
