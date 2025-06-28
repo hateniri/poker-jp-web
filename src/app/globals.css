@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a1a1a;
+  --foreground: #FAFAFA;
 }
 
 @theme inline {
@@ -12,15 +12,169 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ポーカーテーマのカスタムスタイル */
+.poker-gradient {
+  background: linear-gradient(135deg, #DC143C 0%, #8B0000 50%, #1a1a1a 100%);
+}
+
+.felt-gradient {
+  background: linear-gradient(135deg, #228B22 0%, #006400 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.chip-shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.neon-glow {
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+}
+
+/* カードスーツのアイコン */
+.suit-spade::before { content: "♠"; }
+.suit-heart::before { content: "♥"; color: #DC143C; }
+.suit-diamond::before { content: "♦"; color: #DC143C; }
+.suit-club::before { content: "♣"; }
+
+/* アニメーション */
+@keyframes card-deal {
+  from {
+    transform: translateY(-100px) rotate(-10deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+  }
+}
+
+.card-deal {
+  animation: card-deal 0.5s ease-out;
+}
+
+/* 3D効果のためのスタイル */
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* チップスタック効果 */
+@keyframes chip-stack {
+  0% {
+    transform: translateY(-20px) scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.chip-stack {
+  animation: chip-stack 0.3s ease-out;
+}
+
+/* カードフリップ効果 */
+@keyframes card-flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+/* ネオンフラッシュ効果 */
+@keyframes neon-flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.neon-flash {
+  animation: neon-flash 2s ease-in-out infinite;
+}
+
+/* ディーラーボタン回転 */
+@keyframes dealer-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dealer-spin {
+  animation: dealer-spin 20s linear infinite;
+}
+
+/* カジノライト効果 */
+@keyframes casino-lights {
+  0%, 100% {
+    box-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700;
+  }
+  50% {
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+  }
+}
+
+.casino-lights {
+  animation: casino-lights 1.5s ease-in-out infinite;
+}
+
+/* グラデーションアニメーション */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+/* パルスエフェクト */
+@keyframes pulse-glow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 20, 60, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(220, 20, 60, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 20, 60, 0);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s infinite;
 }
