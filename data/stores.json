@@ -1,0 +1,42 @@
+{
+  "stores": [
+    {
+      "id": "store-001",
+      "name": "ポーカールーム新宿",
+      "description": "新宿駅から徒歩5分。初心者から上級者まで楽しめるポーカールーム。",
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "歌舞伎町1-1-1",
+        "access": "新宿駅東口より徒歩5分"
+      },
+      "contact": {
+        "phone": "03-1234-5678",
+        "email": "info@example-poker.jp",
+        "website": "https://example-poker.jp"
+      },
+      "business_hours": {
+        "weekday": "19:00-05:00",
+        "weekend": "17:00-05:00",
+        "holidays": "定休日：なし"
+      },
+      "features": [
+        "初心者向けレッスンあり",
+        "トーナメント定期開催",
+        "ドリンク・軽食サービス",
+        "会員制度あり"
+      ],
+      "subscription": {
+        "status": "active",
+        "plan": "premium",
+        "expires_at": "2024-12-31T23:59:59Z"
+      },
+      "ratings": {
+        "average": 4.5,
+        "count": 127
+      },
+      "created_at": "2023-06-01T00:00:00Z",
+      "updated_at": "2024-01-15T09:00:00Z"
+    }
+  ]
+}

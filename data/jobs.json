@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "id": "job-001",
+      "store_id": "store-001",
+      "title": "ポーカーディーラー募集",
+      "description": "経験者優遇、未経験者歓迎。トレーニング制度あり。",
+      "employment_type": "フルタイム",
+      "salary": {
+        "min": 1500,
+        "max": 3000,
+        "unit": "時給",
+        "currency": "JPY"
+      },
+      "location": {
+        "prefecture": "東京都",
+        "city": "新宿区",
+        "address": "歌舞伎町1-1-1"
+      },
+      "requirements": [
+        "18歳以上",
+        "接客経験あれば尚可",
+        "深夜勤務可能な方"
+      ],
+      "benefits": [
+        "交通費支給",
+        "制服貸与",
+        "研修期間あり",
+        "昇給制度あり"
+      ],
+      "working_hours": {
+        "shifts": ["19:00-03:00", "21:00-05:00"],
+        "days_per_week": "週3日〜"
+      },
+      "is_premium": true,
+      "posted_at": "2024-01-15T09:00:00Z",
+      "expires_at": "2024-02-15T23:59:59Z",
+      "status": "active",
+      "contact": {
+        "method": "email",
+        "value": "recruit@example-poker.jp"
+      }
+    }
+  ]
+}

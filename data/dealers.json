@@ -1,0 +1,43 @@
+{
+  "dealers": [
+    {
+      "id": "dealer-001",
+      "name": "田中太郎",
+      "display_name": "タナカ",
+      "profile": {
+        "experience_years": 5,
+        "specialty": ["テキサスホールデム", "オマハ"],
+        "certifications": ["日本ポーカー協会認定ディーラー"],
+        "bio": "5年間のディーラー経験を活かし、楽しいゲーム進行を心がけています。"
+      },
+      "current_store_id": "store-001",
+      "work_history": [
+        {
+          "store_id": "store-001",
+          "store_name": "ポーカールーム新宿",
+          "period": {
+            "start": "2022-04-01",
+            "end": null
+          },
+          "position": "チーフディーラー"
+        }
+      ],
+      "ratings": {
+        "average": 4.8,
+        "count": 89,
+        "breakdown": {
+          "professionalism": 4.9,
+          "game_management": 4.8,
+          "communication": 4.7,
+          "fairness": 5.0
+        }
+      },
+      "availability": {
+        "status": "employed",
+        "open_to_offers": false
+      },
+      "created_at": "2022-04-01T00:00:00Z",
+      "updated_at": "2024-01-15T09:00:00Z"
+    }
+  ]
+}
