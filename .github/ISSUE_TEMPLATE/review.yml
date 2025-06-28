@@ -1,0 +1,130 @@
+name: レビュー投稿
+description: 店舗またはディーラーのレビューを投稿する
+title: "[レビュー] "
+labels: ["review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## レビュー投稿フォーム
+        実際の体験に基づいたレビューをお願いします。
+        
+  - type: dropdown
+    id: review-type
+    attributes:
+      label: レビュー対象
+      options:
+        - 店舗
+        - ディーラー
+    validations:
+      required: true
+      
+  - type: input
+    id: target-name
+    attributes:
+      label: 対象の名前
+      description: レビューする店舗名またはディーラー名
+      placeholder: "例: ポーカールーム新宿 または 田中太郎"
+    validations:
+      required: true
+      
+  - type: input
+    id: reviewer-name
+    attributes:
+      label: 投稿者名
+      description: ニックネーム可
+      placeholder: "例: ポーカー好き"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: overall-rating
+    attributes:
+      label: 総合評価
+      options:
+        - "⭐⭐⭐⭐⭐ (5) 非常に良い"
+        - "⭐⭐⭐⭐ (4) 良い"
+        - "⭐⭐⭐ (3) 普通"
+        - "⭐⭐ (2) やや不満"
+        - "⭐ (1) 不満"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: comment
+    attributes:
+      label: レビューコメント
+      description: 体験や感想を詳しくお聞かせください（最低50文字以上）
+      placeholder: |
+        実際に利用・勤務した際の体験を具体的に記載してください。
+        良かった点、改善してほしい点など、他の方の参考になる情報をお願いします。
+    validations:
+      required: true
+      
+  - type: markdown
+    attributes:
+      value: "### ディーラーレビューの場合のみ、以下も評価してください"
+      
+  - type: dropdown
+    id: professionalism
+    attributes:
+      label: プロフェッショナリズム（ディーラーのみ）
+      description: ディーラーレビューの場合は必須
+      options:
+        - "5 - 非常に高い"
+        - "4 - 高い"
+        - "3 - 普通"
+        - "2 - やや低い"
+        - "1 - 低い"
+        - "対象外（店舗レビュー）"
+        
+  - type: dropdown
+    id: game-management
+    attributes:
+      label: ゲーム管理能力（ディーラーのみ）
+      description: ディーラーレビューの場合は必須
+      options:
+        - "5 - 非常に高い"
+        - "4 - 高い"
+        - "3 - 普通"
+        - "2 - やや低い"
+        - "1 - 低い"
+        - "対象外（店舗レビュー）"
+        
+  - type: dropdown
+    id: communication
+    attributes:
+      label: コミュニケーション能力（ディーラーのみ）
+      description: ディーラーレビューの場合は必須
+      options:
+        - "5 - 非常に高い"
+        - "4 - 高い"
+        - "3 - 普通"
+        - "2 - やや低い"
+        - "1 - 低い"
+        - "対象外（店舗レビュー）"
+        
+  - type: dropdown
+    id: fairness
+    attributes:
+      label: 公平性（ディーラーのみ）
+      description: ディーラーレビューの場合は必須
+      options:
+        - "5 - 非常に高い"
+        - "4 - 高い"
+        - "3 - 普通"
+        - "2 - やや低い"
+        - "1 - 低い"
+        - "対象外（店舗レビュー）"
+        
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: 確認事項
+      options:
+        - label: このレビューは実際の体験に基づいています
+          required: true
+        - label: 誹謗中傷や虚偽の内容は含まれていません
+          required: true
+        - label: 個人情報の不適切な開示はしていません
+          required: true

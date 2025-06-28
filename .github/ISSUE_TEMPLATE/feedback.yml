@@ -1,0 +1,66 @@
+name: フィードバック・改善提案
+description: サイトの改善提案やフィードバックを送る
+title: "[フィードバック] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## フィードバック・改善提案
+        サイトをより良くするためのご意見をお聞かせください。
+        
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: フィードバックの種類
+      options:
+        - 機能追加の提案
+        - 既存機能の改善
+        - バグ報告
+        - UIデザインの改善
+        - その他
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: 詳細
+      description: 具体的な内容を記載してください
+      placeholder: |
+        【現状】
+        現在の状態や問題点を説明してください
+        
+        【提案】
+        どのように改善すべきか、具体的な提案をお願いします
+        
+        【期待される効果】
+        この改善によってどのような効果が期待できるか
+    validations:
+      required: true
+      
+  - type: input
+    id: affected-page
+    attributes:
+      label: 関連するページ
+      description: 該当するページのURLやページ名
+      placeholder: "例: /jobs または 求人一覧ページ"
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先度
+      description: あなたが考える優先度
+      options:
+        - 高（すぐに対応してほしい）
+        - 中（できれば対応してほしい）
+        - 低（時間があるときで良い）
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: その他の情報
+      description: スクリーンショットのURL、参考サイトなど
+      placeholder: 参考になる情報があれば記載してください

@@ -1,0 +1,146 @@
+name: 求人投稿
+description: ポーカーディーラーの求人を投稿する
+title: "[求人] "
+labels: ["job-posting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 求人投稿フォーム
+        プレミアムプラン会員様専用の求人投稿フォームです。
+        
+  - type: input
+    id: auth-code
+    attributes:
+      label: 認証コード
+      description: 決済完了メールに記載された認証コードを入力してください
+      placeholder: "例: AUTH-XXXX-XXXX"
+    validations:
+      required: true
+      
+  - type: input
+    id: store-name
+    attributes:
+      label: 店舗名
+      description: 求人を掲載する店舗の名前
+      placeholder: "例: ポーカールーム新宿"
+    validations:
+      required: true
+      
+  - type: input
+    id: job-title
+    attributes:
+      label: 求人タイトル
+      description: 募集ポジションのタイトル
+      placeholder: "例: ポーカーディーラー募集（経験者優遇）"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: employment-type
+    attributes:
+      label: 雇用形態
+      options:
+        - フルタイム
+        - パートタイム
+        - アルバイト
+        - 業務委託
+    validations:
+      required: true
+      
+  - type: input
+    id: salary-range
+    attributes:
+      label: 時給
+      description: 時給の範囲を入力してください
+      placeholder: "例: 1500〜3000円"
+    validations:
+      required: true
+      
+  - type: input
+    id: location
+    attributes:
+      label: 勤務地
+      description: 都道府県と市区町村を入力
+      placeholder: "例: 東京都新宿区"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: 求人詳細
+      description: 仕事内容、求める人材像などを詳しく記載してください
+      placeholder: |
+        【仕事内容】
+        - ポーカーゲームのディーリング
+        - プレイヤーへの接客
+        - チップの管理
+        
+        【求める人材】
+        - 18歳以上
+        - 接客経験あれば尚可
+        - 深夜勤務可能な方
+    validations:
+      required: true
+      
+  - type: textarea
+    id: requirements
+    attributes:
+      label: 応募資格・必要条件
+      description: 必須条件と歓迎条件を箇条書きで記載
+      placeholder: |
+        【必須】
+        - 18歳以上
+        - 日本語でのコミュニケーション能力
+        
+        【歓迎】
+        - ポーカー経験者
+        - 英語対応可能
+    validations:
+      required: true
+      
+  - type: textarea
+    id: benefits
+    attributes:
+      label: 待遇・福利厚生
+      description: 提供する待遇や福利厚生を記載
+      placeholder: |
+        - 交通費支給
+        - 制服貸与
+        - 研修制度あり
+        - 昇給制度あり
+        - 社会保険完備
+    validations:
+      required: true
+      
+  - type: input
+    id: working-hours
+    attributes:
+      label: 勤務時間・シフト
+      description: 勤務時間帯やシフト制度について
+      placeholder: "例: 19:00〜05:00（シフト制、週3日〜）"
+    validations:
+      required: true
+      
+  - type: input
+    id: contact-email
+    attributes:
+      label: 連絡先メールアドレス
+      description: 応募者からの連絡を受け取るメールアドレス
+      placeholder: "recruit@example.com"
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 利用規約への同意
+      description: 以下の項目を確認し、同意してください
+      options:
+        - label: 掲載内容が事実であることを保証します
+          required: true
+        - label: 労働基準法その他の法令を遵守します
+          required: true
+        - label: 不適切な内容が含まれている場合、掲載を取り下げられることを理解しました
+          required: true

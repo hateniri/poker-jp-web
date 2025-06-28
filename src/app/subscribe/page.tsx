@@ -1,24 +1,48 @@
 'use client';
 
 import { useState } from 'react';
+import { loadStripe } from '@stripe/stripe-js';
+
+const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
 export default function SubscribePage() {
   const [email, setEmail] = useState('');
   const [storeName, setStoreName] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setError('');
 
-    // 本番環境ではここでStripe Checkoutへリダイレクト
-    alert(`Stripe決済ページへリダイレクトします。\n店舗名: ${storeName}\nメール: ${email}`);
-    
-    // デモ用: Stripe Checkout URLの例
-    const stripeCheckoutUrl = `https://checkout.stripe.com/pay/cs_test_xxx?prefilled_email=${encodeURIComponent(email)}`;
-    
-    // window.location.href = stripeCheckoutUrl;
-    setLoading(false);
+    try {
+      // Stripe Checkoutセッションを作成
+      const response = await fetch('/api/stripe/create-checkout-session', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          storeName,
+          email,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('決済セッションの作成に失敗しました');
+      }
+
+      const { url } = await response.json();
+
+      // Stripe Checkoutページへリダイレクト
+      if (url) {
+        window.location.href = url;
+      }
+    } catch (err: any) {
+      setError(err.message || '予期しないエラーが発生しました');
+      setLoading(false);
+    }
   };
 
   return (
@@ -60,6 +84,12 @@ export default function SubscribePage() {
           </ul>
         </div>
 
+        {error && (
+          <div className="bg-red-50 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
+            {error}
+          </div>
+        )}
+
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label className="block text-sm font-medium mb-2">店舗名</label>
@@ -95,7 +125,7 @@ export default function SubscribePage() {
         </form>
 
         <div className="mt-8 space-y-4 text-sm text-gray-600">
-          <p>※ クレジットカード決済はStripeを使用します</p>
+          <p>※ クレジットカード決済はStripeを使用します（安全・セキュア）</p>
           <p>※ 月額課金は自動更新されます</p>
           <p>※ いつでもキャンセル可能です</p>
         </div>
@@ -109,6 +139,17 @@ export default function SubscribePage() {
             <li>投稿時に認証コードを入力</li>
             <li>承認後、サイトに求人が掲載されます</li>
           </ol>
+        </div>
+
+        <div className="mt-8 p-6 bg-blue-50 rounded-lg">
+          <h3 className="font-semibold mb-2">テスト決済用カード番号</h3>
+          <p className="text-sm text-gray-700 mb-2">開発環境では以下のテストカードをご利用ください：</p>
+          <ul className="text-sm text-gray-700 space-y-1">
+            <li>• カード番号: 4242 4242 4242 4242</li>
+            <li>• 有効期限: 任意の未来の日付</li>
+            <li>• CVC: 任意の3桁</li>
+            <li>• 郵便番号: 任意の5桁</li>
+          </ul>
         </div>
       </div>
     </div>
