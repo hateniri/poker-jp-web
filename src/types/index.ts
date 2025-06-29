@@ -22,6 +22,7 @@ export interface Job {
     days_per_week: string;
   };
   is_premium: boolean;
+  is_dummy?: boolean;
   posted_at: string;
   expires_at: string;
   status: 'active' | 'inactive' | 'expired';

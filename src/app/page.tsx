@@ -63,16 +63,16 @@ export default function Home() {
       </section>
 
       {/* Floating cards animation */}
-      <div className="fixed top-20 left-10 z-0 opacity-20">
+      <div className="fixed top-20 left-10 z-0 opacity-20 pointer-events-none">
         {showCards && <PlayingCard suit="heart" rank="A" delay={500} className="transform rotate-12" />}
       </div>
-      <div className="fixed top-40 right-20 z-0 opacity-20">
+      <div className="fixed top-40 right-20 z-0 opacity-20 pointer-events-none">
         {showCards && <PlayingCard suit="spade" rank="K" delay={800} className="transform -rotate-12" />}
       </div>
-      <div className="fixed bottom-20 left-20 z-0 opacity-20">
+      <div className="fixed bottom-20 left-20 z-0 opacity-20 pointer-events-none">
         {showCards && <PlayingCard suit="diamond" rank="Q" delay={1100} className="transform rotate-6" />}
       </div>
-      <div className="fixed bottom-40 right-10 z-0 opacity-20">
+      <div className="fixed bottom-40 right-10 z-0 opacity-20 pointer-events-none">
         {showCards && <PlayingCard suit="club" rank="J" delay={1400} className="transform -rotate-6" />}
       </div>
 

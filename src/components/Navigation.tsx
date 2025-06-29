@@ -18,8 +18,8 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
+      <nav className="container mx-auto px-4 py-4 relative">
+        <div className="flex items-center justify-between relative z-50">
           <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-poker-white">
             <span className="text-poker-red suit-spade text-3xl"></span>
             <span className="text-poker-red suit-heart text-3xl"></span>
@@ -35,6 +35,9 @@ export default function Navigation() {
               <Link 
                 key={link.href}
                 href={link.href} 
+                onClick={(e) => {
+                  console.log(`Navigation clicked: ${link.label} -> ${link.href}`);
+                }}
                 className={`font-semibold transition-colors ${
                   isActive(link.href) 
                     ? 'text-poker-gold' 
@@ -46,6 +49,9 @@ export default function Navigation() {
             ))}
             <Link 
               href="/subscribe" 
+              onClick={(e) => {
+                console.log('Subscribe button clicked');
+              }}
               className={`px-6 py-2 rounded-full font-bold chip-shadow transition-all hover:scale-105 ${
                 isActive('/subscribe')
                   ? 'bg-yellow-400 text-poker-black'

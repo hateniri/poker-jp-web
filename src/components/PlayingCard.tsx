@@ -37,7 +37,7 @@ export default function PlayingCard({ suit, rank, isFlipped = false, delay = 0, 
 
   return (
     <div
-      className={`relative w-20 h-28 transition-all duration-500 transform-style-3d cursor-pointer ${className} ${
+      className={`relative w-20 h-28 transition-all duration-500 transform-style-3d ${className} ${
         dealt ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
       }`}
       style={{
@@ -45,7 +45,6 @@ export default function PlayingCard({ suit, rank, isFlipped = false, delay = 0, 
         transformStyle: 'preserve-3d',
         transitionDelay: `${delay}ms`
       }}
-      onClick={() => setFlipped(!flipped)}
     >
       {/* Card Front */}
       <div className="absolute inset-0 backface-hidden rounded-lg bg-white border-2 border-poker-black shadow-lg p-2 flex flex-col items-center justify-between">

@@ -18,6 +18,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ポーカーディーラー求人・情報サイト | Poker Dealer JP",
   description: "日本のポーカーディーラー専門の求人情報と店舗・ディーラーレビューを掲載",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/spade-icon.svg",
+    apple: "/spade-icon.svg",
+  },
+  themeColor: "#1a1a1a",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  openGraph: {
+    title: "ポーカーディーラー.jp - 日本最大級のポーカーディーラー専門求人サイト",
+    description: "全国のポーカールームの求人情報を掲載。時給相場、店舗情報、ディーラー向けの情報が満載。",
+    url: "https://poker-dealer.jp",
+    siteName: "ポーカーディーラー.jp",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ポーカーディーラー.jp",
+    description: "日本最大級のポーカーディーラー専門求人サイト",
+  },
 };
 
 export default function RootLayout({
@@ -31,12 +51,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-poker-black`}
       >
         <AdManager />
-        <header className="poker-gradient border-b-4 border-poker-gold">
+        <header className="poker-gradient border-b-4 border-poker-gold relative z-50">
           <Navigation />
         </header>
         
-        <main className="min-h-screen">
-          <div className="absolute inset-0 opacity-5 bg-repeat" style={{
+        <main className="min-h-screen relative">
+          <div className="absolute inset-0 opacity-5 bg-repeat pointer-events-none" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='10' y='40' font-size='30' fill='white'%3E♠%3C/text%3E%3Ctext x='60' y='40' font-size='30' fill='red'%3E♥%3C/text%3E%3Ctext x='10' y='80' font-size='30' fill='red'%3E♦%3C/text%3E%3Ctext x='60' y='80' font-size='30' fill='white'%3E♣%3C/text%3E%3C/svg%3E")`,
             backgroundSize: '100px 100px'
           }}></div>
@@ -45,7 +65,7 @@ export default function RootLayout({
           </div>
         </main>
         
-        <footer className="poker-gradient border-t-4 border-poker-gold text-poker-white py-12 mt-20">
+        <footer className="poker-gradient border-t-4 border-poker-gold text-poker-white py-12 mt-20 relative">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-4 gap-8 mb-8">
               <div>

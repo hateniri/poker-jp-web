@@ -1,0 +1,19 @@
+{
+  "name": "ポーカーディーラー.jp",
+  "short_name": "ポーカー.jp",
+  "description": "日本最大級のポーカーディーラー専門求人サイト",
+  "icons": [
+    {
+      "src": "/spade-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#1a1a1a",
+  "background_color": "#1a1a1a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "lang": "ja",
+  "dir": "ltr"
+}
